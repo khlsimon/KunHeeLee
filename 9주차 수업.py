@@ -146,12 +146,6 @@ for i in f_r_l:
 
 f.close()
 """
-'''
-print("---------------------------------------------")
-f=open("C:\\Users\\skell\\OneDrive\\한국외대\\2-1\\고급파이썬프로그래밍\\Personal_info.txt","r")
-f_r=f.read()
-print(f_r)
-f.close()
-'''
+
 
 
