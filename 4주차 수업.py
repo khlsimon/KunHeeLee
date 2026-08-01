@@ -5,8 +5,8 @@ Created on Wed Mar 27 12:26:38 2024
 @author: skell
 """
 
-name=["박민아","최현우","송성근","박상현",
-           "김민철","이아름","데이비드"] #엔터 가능 
+name=["존","제임스","아이리스","잭",
+           "소피아","찰리","데이비드"] #엔터 가능 
 #print(name[0][0]) # name[몇 번의][몇번 째 ]
 
 #마지막 인덱스 len()-1 
@@ -24,12 +24,12 @@ a[2][1][1]
 Out[15]: 3
 '''
 """
-#name[0] = "장지원" # list 는 중간에 바꿀 수 가 있음 문자열은 안 됨 
+#name[0] = "앨리스" # list 는 중간에 바꿀 수 가 있음 문자열은 안 됨 
 print(name)
 print("\n")
-# name[0][1]="박" 박지원 안 됨 
+# name[0][1]="우" 우리스 안 됨 
 
-i=name.index("이아름")
+i=name.index("제임스")
 print(i) # 왼쪽부터 처음에 만나는 인덱스 출력함 
 
 new_name = [name[0],name[1],name[2],name[3],name[4],name[5]]
@@ -40,7 +40,6 @@ print(new_name_2)
 print(new_name_3)
 """
 '''
-#oh 이런 방법이 
 # list 에서 len 함수 
 a = [0,1,2,3,4,5,6,7,8]
 print(len(a))
@@ -122,11 +121,11 @@ a += b # extend와 같음 a=a+b,
 print(a)
 """
 '''
-d="Yee"
+d="Lee"
 e="EEE"
 d+=e
 print(d)
-YeeEEE
+LeeEEE
 '''
 '''
 b=[1,2,3,4]
