@@ -12,7 +12,7 @@ Created on Wed May 22 12:13:20 2024
 #함수 값을 리턴하고 매개변수를 쓰고 그 매개변수를 집어 넣기. 
 
 a=1#전역변수
-def vartest(x): #매개변수 x x를 a로 써도 실행은 됨 헷갈릴 뿐이지...
+def vartest(x): #매개변수 x x를 a로 써도 실행은 됨 헷갈리는 것 주의 
     x=a+1
     print(x)
     
